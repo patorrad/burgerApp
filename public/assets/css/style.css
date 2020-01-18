@@ -1,3 +1,7 @@
+body {
+  background-color: orange;
+}
+
 li {
   padding: 5px;
   margin: 5px;
@@ -16,4 +20,35 @@ li {
 
 .form-group {
   margin-bottom: 5px;
+}
+
+#burger-img {
+  width: 200px;
+  height: 200px;
+}
+
+#burger-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#burger-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#devoured-undevoured {
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  text-align: center;
+}
+
+#add-burger {
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  text-align: center;
 }
