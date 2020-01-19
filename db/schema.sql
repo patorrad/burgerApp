@@ -1,9 +1,6 @@
 ### Schema
 
-CREATE DATABASE burger_db;
-USE burger_db;
-
-CREATE TABLE burger
+CREATE TABLE `heroku_2e2cb7e01d6da89`.`burger`
 (
 	id int NOT NULL AUTO_INCREMENT,
 	name varchar(255) NOT NULL,
